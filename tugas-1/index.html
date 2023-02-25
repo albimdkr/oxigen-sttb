@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Form Data Siswa | Tugas 1</title>
+    
+</head>
+<body>
+
+    <h1>Formulir Data Siswa</h1>
+    <form action="" class="form">
+        <table>
+            <tr>
+                <td> <label for="nama">Nama</label></td>
+                <td> <input type="text" placeholder="Masukan Nama Lengkap" name="nama"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="ttl">Tempat Tanggal Lahir</label></td>
+                <td><input type="text" placeholder="Masukan Tempat Lahir" name="ttl"></td>
+                <td><input type="date" name="" id=""></td>
+            </tr>
+            
+            <tr>
+                <td><label for="agama">Agama</label></td>
+                <td><select name="agama" id="">
+                    <option value="">-- pilih --</option>
+                    <option value="islam">islam</option>
+                    <option value="kristen">kristen</option>
+                    <option value="hindu">hindu</option>
+                    <option value="budha">budha</option>
+                    <option value="-">-</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td><textarea name="alamat" id="" cols="20" rows="5" placeholder="Masukan Alamat Anda"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Jenis Kelamin</label>
+                    <td>
+                        <input type="radio" id="pria" name="Jeniskelamin" value="pria">
+                        <label for="pria">pria</label>
+                        <input type="radio" id="wanita" name="Jeniskelamin" value="wanita">
+                        <label for="wanita">wanita</label>
+                    </td>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Nomor nomor Telepon</label></td>
+                <td><input type="number" placeholder="masukan nomor telepon anda"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" name="button" id="button" value="submit"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
